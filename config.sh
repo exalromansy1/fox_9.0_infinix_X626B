@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/twrpdtgen/android_device_infinix_Infinix-X626B.git -b fox_11.0"
+export DT_LINK="https://github.com/twrpdtgen/android_device_infinix_Infinix-X626B.git -b device/infinix/Infinix-X626B"
 export DT_PATH="device/infinix/Infinix-X626B"
 export DEVICE="Infinix-X626B"
 export OEM="infinix"
