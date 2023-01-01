@@ -6,11 +6,12 @@ export DT_LINK="https://github.com/twrpdtgen/android_device_infinix_Infinix-X626
 export DT_PATH="device/infinix/Infinix-X626B"
 export DEVICE="Infinix-X626B"
 export OEM="infinix"
+export OT="omni_"
 # Build Target
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
 ## "bootimage" - for A/B devices without recovery partition (and without vendor boot)
 ## "vendorbootimage" - for devices Using vendor boot for the recovery ramdisk (Usually for devices shipped with Android 12 or higher)
-export TARGET="recoveryimage"
+export TARGET="bootimage"
 export OUTPUT="OrangeFox*.zip"
 # Additional Dependencies (eg: Kernel Source)
 # Format: "repo dest"
