@@ -4,7 +4,7 @@
 export FOX_BRANCH="fox_9.0"
 export DT_LINK="https://github.com/AndroidHQ254/recovery_device_Infinix_X626.git"
 export DT_PATH="device/infinix/Infinix-X626B"
-export DEVICE="Infinix-X626B"
+export DEVICE="Infinix-X626"
 export OEM="infinix"
 export OT="omni_Infinix-X626B"
 # Build Target
