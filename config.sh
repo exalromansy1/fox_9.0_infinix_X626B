@@ -4,14 +4,14 @@
 export FOX_BRANCH="fox-9.0"
 export DT_LINK="https://github.com/exalromansy1/device_Infinix-X626B.git"
 export DT_PATH="device/infinix/Infinix-X626B"
-export DEVICE="Infinix-X626"
+export DEVICE="Infinix-X626B"
 export OEM="infinix"
-export OT="omni_Infinix-X626B"
+export OT="omni_X626B-eng"
 # Build Target
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
 ## "bootimage" - for A/B devices without recovery partition (and without vendor boot)
 ## "vendorbootimage" - for devices Using vendor boot for the recovery ramdisk (Usually for devices shipped with Android 12 or higher)
-export TARGET="bootimage"
+export TARGET="recoveryimage"
 export OUTPUT="OrangeFox*.zip"
 # Additional Dependencies (eg: Kernel Source)
 # Format: "repo dest"
